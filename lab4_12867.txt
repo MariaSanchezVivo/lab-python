@@ -1,0 +1,41 @@
+Ejecutando 10^7 elementos
+Computing the sum for N = 10000000
+
+Time taken by reduction operation: 0.31944966316223145 seconds
+323 ms ± 131 μs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 49999995000000
+
+Resultado (for): 499999500000
+Tiempo (for): 0.07377743721008301
+Resultado (sum): 499999500000
+Tiempo (sum): 0.005829572677612305
+Resultado (for numpy): 499999500000
+Tiempo (for numpy): 0.11011433601379395
+Resultado (numpy sum): 499999500000
+Tiempo (numpy sum): 0.00037407875061035156
+Resultado (for numpy njit): 499999500000
+Tiempo (for numpy njit): 1.4710381031036377
+Resultado (numpy sum njit): 499999500000
+Tiempo (numpy sum njit): 0.129258394241333
+
+Ejecutando para 10^8 elementos
+Computing the sum for N = 100000000
+
+Time taken by reduction operation: 3.017451524734497 seconds
+3.09 s ± 2.45 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 4999999950000000
+
+Resultado (for): 499999500000
+Tiempo (for): 0.06537747383117676
+Resultado (sum): 499999500000
+Tiempo (sum): 0.0057430267333984375
+Resultado (for numpy): 499999500000
+Tiempo (for numpy): 0.10427546501159668
+Resultado (numpy sum): 499999500000
+Tiempo (numpy sum): 0.0004477500915527344
+Resultado (for numpy njit): 499999500000
+Tiempo (for numpy njit): 0.3175954818725586
+Resultado (numpy sum njit): 499999500000
+Tiempo (numpy sum njit): 0.10914993286132812
