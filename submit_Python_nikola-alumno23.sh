@@ -15,3 +15,5 @@ echo ""
 echo "Ejecutando para 10^8 elementos"
 ipython reduc-operation-alumno23.ipynb 100000000
 
+module unload anaconda/2025.06
+
